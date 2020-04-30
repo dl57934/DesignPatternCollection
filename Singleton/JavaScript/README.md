@@ -28,7 +28,7 @@ else console.log("다르다");
 우선 Singleton 인스턴스가 사용할 함수들을 먼저 정의합니다. 예제에서는 create()
 그 후 getInstance 함수를 만들어서 인스턴스를 반환해줍니다.
 
-printer 인스턴스는 함수를 할당받는 것이 아닌 함수를 실행한 결과를 받고 있습니다. 그래서 함수가 한번 실행된 printer가 매번 동일하니 getInstance의 결과가 동일합니다.
+printer 함수를 할당받는 것이 아닌 함수를 실행한 결과를 받고 있습니다. 그래서 함수가 한번만 실행되어 printer가 매번 동일하니 getInstance의 결과가 동일합니다.
 
 ```js
 const printer = (() => {
