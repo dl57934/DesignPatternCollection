@@ -1,9 +1,10 @@
 public class Singleton {
     private static Singleton singleton = new Singleton();
 
-    private Singleton(){ }
+    private Singleton() {
+    }
 
-    public static Singleton getSingeton() {
+    public static Singleton getSingleton() {
         return singleton;
     }
 }
