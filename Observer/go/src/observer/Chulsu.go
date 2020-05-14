@@ -1,4 +1,4 @@
-package observer
+package Observer
 
 import (
 	"fmt"
@@ -12,6 +12,6 @@ func (c Chulsu) update(makingChange *MakingChange) {
 	fmt.Println("Chulsu has son: " + strconv.Itoa(makingChange.son) + " daughter: " + strconv.Itoa(makingChange.daughter))
 }
 
-func test(){
+func Test() {
 	fmt.Println("test")
 }

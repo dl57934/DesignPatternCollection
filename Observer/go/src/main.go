@@ -1,16 +1,13 @@
 package main
 
-import "main.go/obeserver/Chulsu"
+import "main.go/Observer"
 
 func main() {
-	Chulsu.test()
-	// cs := Chulsu.Chulsu{}
-	// yh := Younghee{}
-	// mk := MakingChange{}
-	// mk.addObserver(cs)
-	// mk.addObserver(yh)
-	// mk.makingSon()
-	// mk.makingDaughter()
+	cs := Observer.Chulsu{}
+	yh := Observer.Younghee{}
+	var mc *Observer.MakingChange = new(Observer.MakingChange)
+	mc.AddObserver(cs)
+	mc.AddObserver(yh)
+	mc.MakingDaughter()
+	mc.MakingSon()
 }
-
-// cs := Chulsu{}

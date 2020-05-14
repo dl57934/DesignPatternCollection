@@ -1,25 +1,25 @@
-package observer
+package Observer
 
 type MakingChange struct {
 	son, daughter int
 	observers     []Observer
 }
 
-func (m *MakingChange) makingSon() {
+func (m *MakingChange) MakingSon() {
 	m.son++
-	m.allNotify()
+	m.AllNotify()
 }
 
-func (m *MakingChange) makingDaughter() {
+func (m *MakingChange) MakingDaughter() {
 	m.daughter++
-	m.allNotify()
+	m.AllNotify()
 }
 
-func (m *MakingChange) addObserver(observer Observer) {
+func (m *MakingChange) AddObserver(observer Observer) {
 	m.observers = append(m.observers, observer)
 }
 
-func (m *MakingChange) allNotify() {
+func (m *MakingChange) AllNotify() {
 	for _, observer := range m.observers {
 		observer.update(m)
 	}
