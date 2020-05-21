@@ -59,3 +59,16 @@ const strParent = new StringParent("String Parent에요");
 
 strParent.write();
 ```
+
+output
+
+```js
+OPEN String Parent
+
+String Parent에요
+String Parent에요
+String Parent에요
+String Parent에요
+String Parent에요
+CLOSE String Parent
+```
