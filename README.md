@@ -12,4 +12,4 @@
 
 [Template](https://github.com/dl57934/DesignPatternCollection/tree/master/Template)
 
-[go](https://github.com/dl57934/DesignPatternCollection/tree/master/Template/Go), [java]https://github.com/dl57934/DesignPatternCollection/tree/master/Template/Java), [python](https://github.com/dl57934/DesignPatternCollection/tree/master/Template/Python), [javascript](https://github.com/dl57934/DesignPatternCollection/tree/master/Template/JS)
+[go](https://github.com/dl57934/DesignPatternCollection/tree/master/Template/Go),[java](https://github.com/dl57934/DesignPatternCollection/tree/master/Template/Java), [python](https://github.com/dl57934/DesignPatternCollection/tree/master/Template/Python), [javascript](https://github.com/dl57934/DesignPatternCollection/tree/master/Template/JS)
