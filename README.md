@@ -9,3 +9,7 @@
 [Observer](https://github.com/dl57934/DesignPatternCollection/tree/master/Observer)
 
 [go](https://github.com/dl57934/DesignPatternCollection/tree/master/Observer/go), [java](https://github.com/dl57934/DesignPatternCollection/tree/master/Observer/java), [python](https://github.com/dl57934/DesignPatternCollection/tree/master/Observer/python), [javascript](https://github.com/dl57934/DesignPatternCollection/tree/master/Observer/javascript)
+
+[Template](https://github.com/dl57934/DesignPatternCollection/tree/master/Template)
+
+[go](https://github.com/dl57934/DesignPatternCollection/tree/master/Template/Go), [java]https://github.com/dl57934/DesignPatternCollection/tree/master/Template/Java), [python](https://github.com/dl57934/DesignPatternCollection/tree/master/Template/Python), [javascript](https://github.com/dl57934/DesignPatternCollection/tree/master/Template/JS)
