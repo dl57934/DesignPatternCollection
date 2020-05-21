@@ -6,10 +6,10 @@ class StringParent(Parent):
         self.string = string
 
     def openP(self):
-        print("Open")
+        print("Open String")
 
     def close(self):
-        print("Close")
+        print("Close String")
 
     def println(self):
         print(self.string)
