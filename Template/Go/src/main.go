@@ -3,8 +3,8 @@ package main
 import "main.go/Test"
 
 func main() {
-	stringParent := Test.StringParent{"test"}
-	charParent := Test.CharParent{"test"}
+	stringParent := Test.StringParent{"String"}
+	charParent := Test.CharParent{"Char"}
 	writeLine(stringParent, charParent)
 }
 
